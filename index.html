@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>718 Digital - La Créativité sans Limites</title>
+    
+    <!-- Meta SEO -->
+    <meta name="description" content=" 718 Digital : Création de logo, branding, vidéographie, impression multi-supports. La créativité sans limites pour votre marque.">
+    <meta name="keywords" content="logo, branding, vidéographie, impression, événements, marketing digital">
+    <meta name="author" content="718 Digital">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="718 Digital - La Créativité sans Limites">
+    <meta property="og:description" content="Entreprse créative complète de la conception à l'impression">
+    <meta property="og:image" content="https://718digital.com/assets/social-preview.jpg">
+    <meta property="og:url" content="https://718digital.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="718 Digital">
+    <meta name="twitter:description" content="La Créativité sans Limites">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-number">7</span>
+                <span class="logo-text">18 Digital</span>
+            </a>
+            
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#process">Processus</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact" class="btn btn-outline">Devis Gratuit</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Logo -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Logo Embed -->
+                <div class="logo-container">
+                    <div class="logo-wrapper">
+                        <div class="logo-embed">
+                            <iframe 
+                                loading="lazy"
+                                title="Logo 718 Digital"
+                                src="https://www.canva.com/design/DAG8fUCdYak/t6ddgmmyR5p9wr6V_Q7dRg/watch?embed"
+                                allow="fullscreen"
+                                allowfullscreen
+                                class="logo-frame"
+                            ></iframe>
+                        </div>
+                        <div class="logo-overlay">
+                            <h1 class="logo-title">718 Digital</h1>
+                            <p class="logo-tagline">La Créativité sans Limites</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-text">
+                    <h2 class="hero-subtitle">De la conception à l'impression, nous donnons vie à vos idées</h2>
+                    <p class="hero-description">
+                        Agence digitale complète spécialisée en branding, vidéographie et impression multi-supports. 
+                        Nous accompagnons votre marque de la création à la réalisation.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fab fa-whatsapp"></i> Commencer un projet
+                        </a>
+                        <a href="#gallery" class="btn btn-secondary">
+                            Voir nos réalisations
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Nos Services</h2>
+            <p class="section-subtitle">Des solutions complètes pour votre présence digitale</p>
+            
+            <div class="services-grid">
+                <div class="service-card" data-service="branding">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Identité Visuelle & Branding</h3>
+                    <ul class="service-list">
+                        <li>Conception de logo unique</li>
+                        <li>Charte graphique complète</li>
+                        <li>Design de packaging</li>
+                        <li>Papeterie professionnelle</li>
+                        <li>Brand book digital</li>
+                    </ul>
+                    <button class="btn btn-service" data-target="branding">
+                        Demander un logo
+                    </button>
+                </div>
+                
+                <div class="service-card" data-service="video">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Vidéographie & Montage</h3>
+                    <ul class="service-list">
+                        <li>Spot publicitaire</li>
+                        <li>Vidéo corporate</li>
+                        <li>Clip événementiel</li>
+                        <li>Motion design</li>
+                        <li>Drone & prise de vue aérienne</li>
+                        <li>Montage & post-production</li>
+                    </ul>
+                    <button class="btn btn-service" data-target="video">
+                        Planifier un tournage
+                    </button>
+                </div>
+                
+                <div class="service-card" data-service="print">
+                    <div class="service-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3>Impression & Production</h3>
+                    <ul class="service-list">
+                        <li>Affiches grand format</li>
+                        <li>Supports PLV</li>
+                        <li>Flyers & brochures</li>
+                        <li>Cartes de visite</li>
+                        <li>Bannières événementielles</li>
+                        <li>Impression sur textile</li>
+                    </ul>
+                    <button class="btn btn-service" data-target="print">
+                        Commander l'impression
+                    </button>
+                </div>
+                
+                <div class="service-card" data-service="events">
+                    <div class="service-icon">
+                        <i class="fas fa-calendar-star"></i>
+                    </div>
+                    <h3>Événements & Lancements</h3>
+                    <ul class="service-list">
+                        <li>Identité événementielle</li>
+                        <li>Supports de communication</li>
+                        <li>Photographie d'événement</li>
+                        <li>Vidéo live & aftermovie</li>
+                        <li>Supports promotionnels</li>
+                    </ul>
+                    <button class="btn btn-service" data-target="events">
+                        Organiser un événement
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Notre Galerie</h2>
+            <p class="section-subtitle">Découvrez nos réalisations</p>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="video">Vidéographie</button>
+                <button class="filter-btn" data-filter="print">Impression</button>
+                <button class="filter-btn" data-filter="events">Événements</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Projects will be loaded dynamically -->
+                <div class="gallery-item" data-category="branding">
+                    <img src="https://via.placeholder.com/400x300/FF6B35/FFFFFF?text=Logo+Design" alt="Projet Branding">
+                    <div class="gallery-overlay">
+                        <h4>Logo Restaurant</h4>
+                        <p>Identité complète</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="video">
+                    <img src="https://via.placeholder.com/400x300/1A1A1A/FFFFFF?text=Vidéo+Corporate" alt="Projet Vidéo">
+                    <div class="gallery-overlay">
+                        <h4>Vidéo Corporate</h4>
+                        <p>Tournage & montage</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="print">
+                    <img src="https://via.placeholder.com/400x300/4361EE/FFFFFF?text=Affiche+Événement" alt="Projet Impression">
+                    <div class="gallery-overlay">
+                        <h4>Affiche Festival</h4>
+                        <p>Impression grand format</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="events">
+                    <img src="https://via.placeholder.com/400x300/2EC4B6/FFFFFF?text=Lancement+Produit" alt="Projet Événement">
+                    <div class="gallery-overlay">
+                        <h4>Lancement Produit</h4>
+                        <p>Événement complet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <h2 class="section-title">Notre Processus</h2>
+            <p class="section-subtitle">Un accompagnement de A à Z</p>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <h3>Consultation</h3>
+                    <p>Analyse de vos besoins et définition des objectifs</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <h3>Conception</h3>
+                    <p>Création des concepts et présentation des maquettes</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <h3>Production</h3>
+                    <p>Réalisation et révisions jusqu'à satisfaction</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <h3>Livraison</h3>
+                    <p>Remise des fichiers finaux et supports imprimés</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Demandez un Devis</h2>
+            <p class="section-subtitle">Parlez-nous de votre projet</p>
+            
+            <form id="projectForm" class="contact-form">
+                <!-- Step 1: Service Selection -->
+                <div class="form-step active" data-step="1" data-next="step2">
+                    <h3 class="step-title">Quel service vous intéresse ?</h3>
+                    
+                    <div class="service-options">
+                        <div class="service-option" data-service="branding">
+                            <i class="fas fa-palette"></i>
+                            <span>Branding & Logo</span>
+                        </div>
+                        
+                        <div class="service-option" data-service="video">
+                            <i class="fas fa-video"></i>
+                            <span>Vidéographie</span>
+                        </div>
+                        
+                        <div class="service-option" data-service="print">
+                            <i class="fas fa-print"></i>
+                            <span>Impression</span>
+                        </div>
+                        
+                        <div class="service-option" data-service="events">
+                            <i class="fas fa-calendar-star"></i>
+                            <span>Événements</span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-navigation">
+                        <button type="button" class="btn btn-primary next-step">
+                            Suivant <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Step 2: Contact Information -->
+                <div class="form-step" data-step="2" data-prev="step1" data-next="step3">
+                    <h3 class="step-title">Vos coordonnées</h3>
+                    
+                    <div class="form-group">
+                        <label for="name">Nom complet *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="company">Entreprise</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    
+                    <div class="form-navigation">
+                        <button type="button" class="btn btn-outline prev-step">
+                            <i class="fas fa-arrow-left"></i> Retour
+                        </button>
+                        <button type="button" class="btn btn-primary next-step">
+                            Suivant <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Step 3: Project Details -->
+                <div class="form-step" data-step="3" data-prev="step2" data-next="step4">
+                    <h3 class="step-title">Détails du projet</h3>
+                    
+                    <div class="form-group">
+                        <label for="budget">Budget estimé</label>
+                        <select id="budget" name="budget">
+                            <option value="">Sélectionnez</option>
+                            <option value="500-1000">500€ - 1 000€</option>
+                            <option value="1000-3000">1 000€ - 3 000€</option>
+                            <option value="3000-5000">3 000€ - 5 000€</option>
+                            <option value="5000+">5 000€ et plus</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="timeline">Délai souhaité</label>
+                        <select id="timeline" name="timeline">
+                            <option value="">Sélectionnez</option>
+                            <option value="urgent">Urgent (1-2 semaines)</option>
+                            <option value="normal">Normal (3-4 semaines)</option>
+                            <option value="flexible">Flexible (1-2 mois)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="description">Description du projet *</label>
+                        <textarea id="description" name="description" rows="4" required></textarea>
+                    </div>
+                    
+                    <div class="form-navigation">
+                        <button type="button" class="btn btn-outline prev-step">
+                            <i class="fas fa-arrow-left"></i> Retour
+                        </button>
+                        <button type="button" class="btn btn-primary next-step">
+                            Suivant <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Step 4: Confirmation -->
+                <div class="form-step" data-step="4" data-prev="step3">
+                    <h3 class="step-title">Confirmation</h3>
+                    
+                    <div class="confirmation-summary">
+                        <p>Votre demande sera envoyée via WhatsApp pour un traitement rapide.</p>
+                        
+                        <div class="summary-item">
+                            <strong>Contact préféré :</strong>
+                            <div class="contact-options">
+                                <label>
+                                    <input type="radio" name="contactMethod" value="whatsapp" checked>
+                                    <i class="fab fa-whatsapp"></i> WhatsApp
+                                </label>
+                                <label>
+                                    <input type="radio" name="contactMethod" value="email">
+                                    <i class="fas fa-envelope"></i> Email
+                                </label>
+                                <label>
+                                    <input type="radio" name="contactMethod" value="phone">
+                                    <i class="fas fa-phone"></i> Téléphone
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-navigation">
+                        <button type="button" class="btn btn-outline prev-step">
+                            <i class="fas fa-arrow-left"></i> Retour
+                        </button>
+                        <button type="submit" class="btn btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i> Envoyer sur WhatsApp
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Progress Bar -->
+                <div class="form-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <div class="progress-steps">
+                        <span class="step-indicator active">1</span>
+                        <span class="step-indicator">2</span>
+                        <span class="step-indicator">3</span>
+                        <span class="step-indicator">4</span>
+                    </div>
+                </div>
+            </form>
+            
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>contact@718digital.com</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <div>
+                        <h4>WhatsApp</h4>
+                        <p>+33 6 12 34 56 78</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h4>Horaires</h4>
+                        <p>Lun-Ven: 9h-18h</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-number">7</span>
+                        <span class="logo-text">18 Digital</span>
+                    </div>
+                    <p class="footer-tagline">La Créativité sans Limites</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Branding & Logo</a></li>
+                        <li><a href="#services">Vidéographie</a></li>
+                        <li><a href="#services">Impression</a></li>
+                        <li><a href="#services">Événements</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#gallery">Galerie</a></li>
+                        <li><a href="#process">Processus</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-cta">
+                    <h4>Prêt à démarrer ?</h4>
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fab fa-whatsapp"></i> Demander un devis
+                    </a>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 718 Digital. Tous droits réservés.</p>
+                <p><a href="#">Mentions légales</a> • <a href="#">Politique de confidentialité</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/33612345678" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
